@@ -1,7 +1,6 @@
 body {
     background-color: #000000;
     margin: 0;
-    padding: 0 220px;
     font-family: system-ui, -apple-system, sans-serif;
     display: flex;
     flex-direction: column;
@@ -44,6 +43,7 @@ h1 {
 .main,
 .image {
     width: 50%;
+    align-content: center;
 }
 
 h1 {
@@ -71,4 +71,19 @@ ul {
 a {
     text-decoration: none;
     font-size: 18px;
+}
+
+.main button {
+    background-color: #3882F6;
+    font-size: 18px;
+    color: #F9FAF8;
+    border-radius: 10px;
+    border-width: 0px;
+    padding: 5px 30px;
+    font-family: system-ui, -apple-system, sans-serif;
+    line-height: 1.5;
+}
+
+.main button:hover {
+    background-color: #255197;
 }
