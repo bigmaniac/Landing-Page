@@ -149,4 +149,15 @@ img {
 
 .sign-up {
     padding: 100px 220px;
+    background-color: #F9FAF8;
+}
+
+.footer {
+    padding: 50px 220px;
+    background-color: #1F2937;
+}
+
+.footer p {
+    color: #F9FAF8;
+    text-align: center;
 }
